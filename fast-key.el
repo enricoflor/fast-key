@@ -4,6 +4,8 @@
 
 ;; Author: Enrico Flor <enrico@eflor.net>
 ;; Maintainer: Enrico Flor <enrico@eflor.net>
+;; URL: https://github.com/enricoflor/fast-key
+;; Version: 0.0.1
 ;; Keywords: convenience
 
 ;; Package-Requires: ((emacs "26.1"))
