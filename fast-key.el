@@ -154,7 +154,7 @@ again."
   (when (or (> fast-key--counter (1- (length list-of-commands)))
             (not (eq last-command this-command)))
     (setq fast-key--counter 0))
-  (if ast-key--continuing
+  (if fast-key--continuing
       (funcall-interactively (nth 0 list-of-commands))
     (let* ((fn (nth fast-key--counter list-of-commands))
            (timed-fn `(lambda () (progn (setq fast-key--counter 0)
